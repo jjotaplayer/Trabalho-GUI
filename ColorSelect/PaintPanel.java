@@ -21,6 +21,7 @@ public class PaintPanel extends JPanel {
 	private int pointCount = 0; 
 	private int a = 4;
 	private Point[] points = new Point[10000]; 
+	private Color cor;
 
 	public PaintPanel() { 
 		
@@ -55,18 +56,21 @@ public class PaintPanel extends JPanel {
 		this.pointCount = 0;
 		
 	}
+	public void trocaCor(Color corzinha) {
+		this.cor = corzinha;
+	}
 	public void paintComponent(Graphics g) {
 
 		super.paintComponent(g); 
 
 		for (int i = 0; i < pointCount; i++) {
 
-			g.setColor(Color.BLACK);
+			g.setColor(cor);
 
 			g.fillOval(points[i].x, points[i].y, this.a, this.a);
 
 		}
 
 	}
-  
 }
+
