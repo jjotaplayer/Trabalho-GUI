@@ -21,7 +21,7 @@ public class PaintPanel extends JPanel {
 	private int pointCount = 0; 
 	private int a = 4;
 	private Point[] points = new Point[10000]; 
-	private Color cor;
+	private Color cor = Color.GRAY;
 
 	public PaintPanel() { 
 		
