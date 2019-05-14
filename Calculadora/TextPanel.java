@@ -11,4 +11,7 @@ public class TextPanel extends JPanel {
         add(textArea);
 
     }
+    public void setText(String str) {
+    	this.textArea.setText(str);
+    }
 }
