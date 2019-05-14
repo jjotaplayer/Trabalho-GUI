@@ -99,7 +99,7 @@ public class ButtonPanel extends JPanel {
                 i = i + 1;
             }
             // Associacao da variavel string temporaria ao textPanel
-            textPanel.textArea.setText(str);
+            textPanel.setText(str);
         }
     }
 }
