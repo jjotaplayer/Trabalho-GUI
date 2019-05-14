@@ -98,6 +98,9 @@ public class ButtonPanel extends JPanel {
                 str = str + " " + "+" + " ";
                 i = i + 1;
             }
+            if (event.getSource() == button[23]) {
+                str = " ";
+            }
             // Associacao da variavel string temporaria ao textPanel
             textPanel.setText(str);
         }
