@@ -46,6 +46,10 @@ public class FramePrincipal extends JFrame
       constraints = new GridBagConstraints();
       comboBox.setMaximumRowCount(3);
       comboBox = new JComboBox(opcoes);
+      ButtonGroup grupoRadio = new ButtonGroup();
+      grupoRadio.add(radioButton1);
+      grupoRadio.add(radioButton2);
+      grupoRadio.add(radioButton3);
       addComponent(area1,1,1,5,5);
       addComponent(texto1,8,1,5,10);
       addComponent(checkBox1,8,9,3,3);
