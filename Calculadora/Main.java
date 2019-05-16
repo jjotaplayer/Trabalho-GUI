@@ -5,7 +5,7 @@ public class Main {
 
         Calculadora teste = new Calculadora();
         teste.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        teste.setSize(455,255);
+        teste.setSize(555, 285);
         teste.setVisible(true);
     }
 }
