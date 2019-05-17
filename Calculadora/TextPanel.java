@@ -3,7 +3,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 public class TextPanel extends JPanel {
-    private JTextField textArea;
+    protected JTextField textArea;
     
     public TextPanel() {
         setLayout(new FlowLayout());
